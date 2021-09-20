@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="mystyle.css">
+
+
+</head>
+
+<body>
+
+<div class="header">
+<h2>Όλες οι ειδήσεις</h2>
+</div> 
+
+<div>
+	
+	<div>
+	<h5 class = "roh">Ροή</h5>
+	</div>
+	
+	
+</div>
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/politiki/story/281086/20-xronia-apo-tin-11i-septemvrioy-mitsotakis-den-tha-xexasoyme-pote';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>20 χρόνια από την 11η Σεπτεμβρίου 
+		- Μητσοτάκης: «Δεν 
+		θα ξεχάσουμε ποτέ» </p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 17:41 </p>
+	</div> 
+
+</div> 
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/ellada/story/281095/koronoios-taseis-statheropoiisis-emfanizei-i-diaspora-h-katanomi-ton-2-197-kroysmaton';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>Κορωνοϊός: Τάσεις σταθεροποίησης εμφανίζει η διασπορά - Η κατανομή των 2.197 κρουσμάτων </p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 18:39 </p>
+	</div> 
+</div> 
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/ellada/story/281093/deth-2021-ta-protoselida-ton-kyriakatikon-efimeridon-12-septemvrioy';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>ΔΕΘ 2021 - Τα πρωτοσέλιδα των κυριακάτικων εφημερίδων (12 Σεπτεμβρίου) </p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 18:26  </p>
+	</div> 
+</div> 
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/sports/story/281090/formula-1-sovaro-atyxima-gia-ton-karlos-sainth-stin-italia';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>Formula 1: Σοβαρό ατύχημα για τον Κάρλος Σάινθ στην Ιταλία</p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 17:29  </p>
+	</div> 
+</div> 
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/sports/story/281084/anarronei-sto-spiti-toy-o-nadal-poy-diekopse-proora-tin-paroysia-toy-sta-kort';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>Αναρρώνει στο σπίτι του ο Ναδάλ, που διέκοψε πρόωρα την παρουσία του στα κορτ</p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 17:16  </p>
+	</div> 
+</div> 
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/kosmos/story/281078/koronoios-kata-toy-ypoxreotikoy-emvoliasmoy-o-prothypoyrgos-toy-velgioy';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>Κορωνοϊός: Κατά του υποχρεωτικού εμβολιασμού ο πρωθυπουργός του Βελγίου</p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 19:16  </p>
+	</div> 
+</div> 
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/politiki/story/281083/deth-2021-theodorikakos-h-el-as-kerdise-tis-maxes-toy-evroy-kai-kata-tis-pandimias';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>ΔΕΘ 2021 - Θεοδωρικάκος: Η ΕΛ.ΑΣ. κέρδισε τις μάχες του Έβρου και κατά της πανδημίας</p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 20:16  </p>
+	</div> 
+</div> 
+
+<div class = "posts" onclick="location.href='https://www.cnn.gr/ellada/story/281074/thessaloniki-33xroni-exedide-aniliki-pos-elave-telos-i-drasi-tis';" style="cursor:pointer;">
+  
+	<div class ="texts" > 
+		<p>Θεσσαλονίκη: 33χρονη εξέδιδε ανήλικη - Πώς έλαβε τέλος η δράση της</p>	
+	</div>
+	
+	<div class = "time"> 
+		<p> 21:16  </p>
+	</div> 
+</div> 
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">ΟΛΕΣ ΟΙ ΕΙΔΗΣΕΙΣ</button> 
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</body>
+
+</html>
